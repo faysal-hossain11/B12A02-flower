@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind css CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <title>B12A02-Responsive-Flowers</title>
+</head>
+
+<body>
+    <!-- start the header -->
+    <header class=" md:px-0 bg-[#F5F8FF]">
+        <nav class="max-w-[1140px] mx-auto pt-6 md:pb-[120px] px-4 flex justify-between items-center">
+            <div>
+                <a href="#">
+                    <img class="w-[63px] h-[38px] md:w-[135px] md:h-[82px]" src="./assets/logo.png"
+                        alt="website logo" />
+                </a>
+            </div>
+            <div class="flex items-center gap-12">
+                <div class="hidden sm:block">
+                    <ul class="flex gap-12 ">
+                        <li><a href="#"
+                                class="text-[#8987A1] hover:text-[#252432] hover:font-semibold transition-all duration-300 ">Home</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-[#8987A1] hover:text-[#252432] hover:font-semibold transition-all duration-300 ">Shop</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-[#8987A1] hover:text-[#252432] hover:font-semibold transition-all duration-300 ">About
+                                us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="gap-2">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="ml-2">Cart ($56)</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- start the header -->
+
+    <!-- start the main section -->
+    <main class="bg-[#F5F8FF]">
+        <!-- start the banner section -->
+        <section
+            class="max-w-[1140px] mx-auto flex flex-col flex-col-reverse md:flex-row justify-between items-center gap-8 py-16 ">
+            <div class="md:flex-1 px-4 md:px-0 ">
+                <h1 class="text-2xl md:text-[65px] font-bold font-['Noto_Serif',serif] mt-7 md:mt-0 mb-2 md:mb-0">ALWAYS
+                    <span class="text-[#E95A08]">FRESH <br> FLOWERS</span>
+                </h1>
+                <p class="font-['Inter',sans-serif] text-[14px] md:text-[22px] text-[#8987A1]">Indulge your senses with
+                    the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a
+                    wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="md:flex-1">
+                <img class="w-full" src="./assets/hero-flower.png" alt="">
+            </div>
+        </section>
+        <!-- end the banner section -->
+
+        <!-- start the plan section -->
+        <section class="pt-[65px] md:pt-[120px] max-w-[1140px] mx-auto px-3 md:px-0 pb-[10px] md:pb-[110px]">
+            <h2 class="text-center font-['Noto_Serif',serif] mb-3 text-2xl md:text-[50px] font-bold"><span
+                    class="text-[#E95A08]">Our</span> Plants</h2>
+            <p
+                class="max-w-[888px] mx-auto text-[14px] md:text-[22px] text-center text-[#8987A1] px-7 md:px-0 mb-[50px]">
+                Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
+                blooms, we offer a wide variety of fresh</p>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-7 gap-x-5 ">
+                <div class="shadow-lg">
+                    <div class="mb-7 ">
+                        <img class="w-full h-[270px] w-auto " src="./assets/sample-flower-image.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-[16px] md:text-[22px] font-['Inter',sans-serif] mb-3 text-[#111111]">Lily Blossom</h4>
+                        <h5 class="text-[#111111] font-bold text-[16px] md:text-[22px] mb-5 font-['Inter',sans-serif]">20 USD</h5>
+                        <button class="font-['Inter',sans-serif] text-[16px] font-semibold py-4 text-center w-full bg-[#E95A08] text-white">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shadow-lg">
+                    <div class="mb-7 ">
+                        <img class="w-full h-[270px] w-auto " src="./assets/sample-flower-image.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-[16px] md:text-[22px] font-['Inter',sans-serif] mb-3 text-[#111111]">Lily Blossom</h4>
+                        <h5 class="text-[#111111] font-bold text-[16px] md:text-[22px] mb-5 font-['Inter',sans-serif]">20 USD</h5>
+                        <button class="font-['Inter',sans-serif] text-[16px] font-semibold py-4 text-center w-full bg-[#E95A08] text-white">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shadow-lg">
+                    <div class="mb-7 ">
+                        <img class="w-full h-[270px] w-auto " src="./assets/sample-flower-image.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-[16px] md:text-[22px] font-['Inter',sans-serif] mb-3 text-[#111111]">Lily Blossom</h4>
+                        <h5 class="text-[#111111] font-bold text-[16px] md:text-[22px] mb-5 font-['Inter',sans-serif]">20 USD</h5>
+                        <button class="font-['Inter',sans-serif] text-[16px] font-semibold py-4 text-center w-full bg-[#E95A08] text-white">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shadow-lg">
+                    <div class="mb-7 ">
+                        <img class="w-full h-[270px] w-auto " src="./assets/sample-flower-image.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-[16px] md:text-[22px] font-['Inter',sans-serif] mb-3 text-[#111111]">Lily Blossom</h4>
+                        <h5 class="text-[#111111] font-bold text-[16px] md:text-[22px] mb-5 font-['Inter',sans-serif]">20 USD</h5>
+                        <button class="font-['Inter',sans-serif] text-[16px] font-semibold py-4 text-center w-full bg-[#E95A08] text-white">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shadow-lg">
+                    <div class="mb-7 ">
+                        <img class="w-full h-[270px] w-auto " src="./assets/sample-flower-image.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-[16px] md:text-[22px] font-['Inter',sans-serif] mb-3 text-[#111111]">Lily Blossom</h4>
+                        <h5 class="text-[#111111] font-bold text-[16px] md:text-[22px] mb-5 font-['Inter',sans-serif]">20 USD</h5>
+                        <button class="font-['Inter',sans-serif] text-[16px] font-semibold py-4 text-center w-full bg-[#E95A08] text-white">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shadow-lg">
+                    <div class="mb-7 ">
+                        <img class="w-full h-[270px] w-auto " src="./assets/sample-flower-image.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-[16px] md:text-[22px] font-['Inter',sans-serif] mb-3 text-[#111111]">Lily Blossom</h4>
+                        <h5 class="text-[#111111] font-bold text-[16px] md:text-[22px] mb-5 font-['Inter',sans-serif]">20 USD</h5>
+                        <button class="font-['Inter',sans-serif] text-[16px] font-semibold py-4 text-center w-full bg-[#E95A08] text-white">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shadow-lg">
+                    <div class="mb-7 ">
+                        <img class="w-full h-[270px] w-auto " src="./assets/sample-flower-image.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-[16px] md:text-[22px] font-['Inter',sans-serif] mb-3 text-[#111111]">Lily Blossom</h4>
+                        <h5 class="text-[#111111] font-bold text-[16px] md:text-[22px] mb-5 font-['Inter',sans-serif]">20 USD</h5>
+                        <button class="font-['Inter',sans-serif] text-[16px] font-semibold py-4 text-center w-full bg-[#E95A08] text-white">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shadow-lg">
+                    <div class="mb-7 ">
+                        <img class="w-full h-[270px] w-auto " src="./assets/sample-flower-image.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-[16px] md:text-[22px] font-['Inter',sans-serif] mb-3 text-[#111111]">Lily Blossom</h4>
+                        <h5 class="text-[#111111] font-bold text-[16px] md:text-[22px] mb-5 font-['Inter',sans-serif]">20 USD</h5>
+                        <button class="font-['Inter',sans-serif] text-[16px] font-semibold py-4 text-center w-full bg-[#E95A08] text-white">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end the plan section -->
+
+        <!--  -->
+
+
+
+    </main>
+    <!-- start the main section -->
+
+    <!-- start the footer section -->
+    <footer></footer>
+    <!-- start the footer section -->
+</body>
+
+</html>
